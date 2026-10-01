@@ -1,22 +1,13 @@
-# Sanitizer probe
+# Sanitizer probe 2
 
-A audio+raw:
-<audio src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/voice-notes/The%20Short%20Tour.mp3" controls></audio>
+H video+release-asset:
+<video src="https://github.com/Pukujan/stylish-profile/releases/download/v0.0.0/x.mp4" controls></video>
 
-B audio+github.com blob:
-<audio src="https://github.com/Pukujan/stylish-profile/raw/main/assets/profile/voice-notes/The%20Short%20Tour.mp3" controls></audio>
+I video+pages:
+<video src="https://pukujan.github.io/stylish-profile/assets/profile/voice-notes/The%20Short%20Tour.mp3" controls></video>
 
-C video+raw mp3:
-<video src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/voice-notes/The%20Short%20Tour.mp3" controls></video>
+J video+github.io mp4:
+<video src="https://pukujan.github.io/stylish-profile/assets/profile/x.mp4" controls></video>
 
-D video+user-attachments:
-<video src="https://github.com/user-attachments/assets/27cc3b9b-9b91-4cd9-a3a5-1bbb61c33e19" controls></video>
-
-E img+raw mp3:
-<img src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/voice-notes/The%20Short%20Tour.mp3" alt="x">
-
-F plain link:
-[listen](https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/voice-notes/The%20Short%20Tour.mp3)
-
-G video+raw mp4:
-<video src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/voice-notes/The%20Short%20Tour.mp3" controls width="320"></video>
+K audio+user-attachments:
+<audio src="https://github.com/user-attachments/assets/27cc3b9b-9b91-4cd9-a3a5-1bbb61c33e19" controls></audio>
