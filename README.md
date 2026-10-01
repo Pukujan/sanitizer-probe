@@ -1,13 +1,11 @@
-# Sanitizer probe 2
+# Sanitizer probe 3
 
-H video+release-asset:
-<video src="https://github.com/Pukujan/stylish-profile/releases/download/v0.0.0/x.mp4" controls></video>
+L gh-dark-mode-only / gh-light-mode-only:
+<img src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer.png#gh-light-mode-only" alt="light">
+<img src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer.png#gh-dark-mode-only" alt="dark">
 
-I video+pages:
-<video src="https://pukujan.github.io/stylish-profile/assets/profile/voice-notes/The%20Short%20Tour.mp3" controls></video>
-
-J video+github.io mp4:
-<video src="https://pukujan.github.io/stylish-profile/assets/profile/x.mp4" controls></video>
-
-K audio+user-attachments:
-<audio src="https://github.com/user-attachments/assets/27cc3b9b-9b91-4cd9-a3a5-1bbb61c33e19" controls></audio>
+M picture prefers-color-scheme:
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer.png">
+<img src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer%20phone.png" alt="x">
+</picture>
