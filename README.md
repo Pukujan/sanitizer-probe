@@ -1,11 +1,18 @@
-# Sanitizer probe 3
+# Sanitizer probe 4
 
-L gh-dark-mode-only / gh-light-mode-only:
-<img src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer.png#gh-light-mode-only" alt="light">
-<img src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer.png#gh-dark-mode-only" alt="dark">
-
-M picture prefers-color-scheme:
+N fragment on source srcset:
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer.png">
-<img src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer%20phone.png" alt="x">
+<source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer%20phone.png#gh-light-mode-only">
+<source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer%20phone.png#gh-dark-mode-only">
+<img src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer.png#gh-light-mode-only" alt="light">
+</picture>
+
+O two pictures, one per mode:
+<picture>
+<source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer%20phone.png">
+<img src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer.png#gh-light-mode-only" alt="light">
+</picture>
+<picture>
+<source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer%20phone.png">
+<img src="https://raw.githubusercontent.com/Pukujan/stylish-profile/main/assets/profile/AI%20Engineer.png#gh-dark-mode-only" alt="dark">
 </picture>
